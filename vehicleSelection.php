@@ -25,6 +25,7 @@ foreach($vehicles as $vehicleInfo){
     $rc = new Vehicle();
     $rcompanies = $rc->getRentalCompanies($rcid, $dbcon);
 }
+var_dump($_SESSION['pDate']);
 //If sessions are set then retrieve them.
 if(isset($_SESSION['pDate']) && isset($_SESSION['rDate'])){
     //div styling uppon submision
@@ -78,7 +79,7 @@ if(isset($_SESSION['pDate']) && isset($_SESSION['rDate'])){
                 $interval = $origin->diff($target);
                 $timed = $interval->format('%a');
                 //On susbmit insert into vehiclerentals table
-                if (!isset($_POST['vehicle-confirm'])){
+                if (isset($_POST['vehicle-confirm'])){
                     foreach($rcompanies as $rcompany){
 
                         $vehicleLocation = $rcompany->rentalcompanyaddress;
