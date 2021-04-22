@@ -13,11 +13,11 @@ class Database{
     private static $pass = "root";
     private static $dsn = "mysql:host=localhost;dbname=onroute";
     */
+    //mysql://b0e67c74f17db1:e15748b9@us-cdbr-east-03.cleardb.com/heroku_2ccb5f
     
-    
-    private static $user ="root";
-    private static $pass = "";
-    private static $dsn = "mysql:host=localhost;dbname=onroute";
+    private static $user ="b0e67c74f17db1";
+    private static $pass = "e15748b9";
+    private static $dsn = "mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_2ccb5f";
     
     private static $dbcon;
 
