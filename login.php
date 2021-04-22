@@ -64,7 +64,7 @@
             $_SESSION['userFirstName'] = $u->firstname;
             $_SESSION['userLastName'] = $u->lastname;
             $_SESSION['userPhone'] = $u->phonenumber;
-            header('Location: Flights.php');
+            header('Location: flights.php');
         } else {
             //Change this to something useful
             $invalid = "<p>Invalid username and/or password</p>";
