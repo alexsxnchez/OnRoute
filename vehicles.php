@@ -37,7 +37,6 @@ if(isset($_POST['vehicleSubmit'])){
         if(isset($pickupDate) && $pickupDate !== "" && isset($returnDate) && $returnDate !== ''){
             $_SESSION['pDate'] = $pickupDate;
             $_SESSION['rDate'] = $returnDate;
-            var_dump($$_SESSION['pDate']);
 
             $origin = new DateTime($returnDate);
             $target = new DateTime($pickupDate);
@@ -55,7 +54,7 @@ if(empty($pickupDate) || empty($returnDate)){
 $dbcon = Database::getDb();
 $vh = new Vehicle();
 $vehicles = $vh->getAllVehicles($dbcon);
-//var_dump($vehicles);
+var_dump($_SESSION['pDate']);
 //Styling and Header View
 $css = array('styles/vehicles.css');
 require_once 'views/header.php';
