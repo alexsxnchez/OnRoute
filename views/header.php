@@ -16,7 +16,7 @@ $loginMenu = [];
 
 //Checks if user is logged in, displays appropriate interface
 if (isset($_SESSION['userID'])) {
-    $loginMenu[$_SESSION['userFirstName'] . " " .  $_SESSION['userLastName']] = "myaccount.php";
+    $loginMenu[$_SESSION['userFirstName'] . " " .  $_SESSION['userLastName']] = "myAccount.php";
     $loginMenu['Logout'] = 'logout.php';
 } else {
     $loginMenu['Login'] = 'login.php';
