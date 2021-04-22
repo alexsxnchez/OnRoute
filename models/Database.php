@@ -8,16 +8,13 @@ class Database{
     // private static $dsn = "mysql:host=198.50.215.64;dbname=moeasakr_onroute";
 
     /*
-    //for mamp localhost log in - NHC
-    private static $user ="root";
-    private static $pass = "root";
-    private static $dsn = "mysql:host=localhost;dbname=onroute";
+    Heroku Database PHPMyAdmin
     */
-    //mysql://b0e67c74f17db1:e15748b9@us-cdbr-east-03.cleardb.com/heroku_2ccb5f
+    //mysql://b0e67c74f17db1:e15748b9@us-cdbr-east-03.cleardb.com/heroku_2ccb5fef8b13c05;
     
     private static $user ="b0e67c74f17db1";
     private static $pass = "e15748b9";
-    private static $dsn = "mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_2ccb5f";
+    private static $dsn = "mysql:host=us-cdbr-east-03.cleardb.com;dbname=heroku_2ccb5fef8b13c05";
     
     private static $dbcon;
 
