@@ -37,6 +37,7 @@ if(isset($_POST['vehicleSubmit'])){
         if(isset($pickupDate) && $pickupDate !== "" && isset($returnDate) && $returnDate !== ''){
             $_SESSION['pDate'] = $pickupDate;
             $_SESSION['rDate'] = $returnDate;
+            var_dump($$_SESSION['pDate']);
 
             $origin = new DateTime($returnDate);
             $target = new DateTime($pickupDate);
