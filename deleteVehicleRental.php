@@ -49,7 +49,7 @@
 ?>
 
 <div class = "flightSelected">
-    <h2 class="emptyMsg" <?= $redirect ?>> Looking to cancel a vehicle rental? </br> Click <a href="./myaccount.php">Here</a></h3> 
+    <h2 class="emptyMsg" <?= $redirect ?>> Looking to cancel a vehicle rental? </br> Click <a href="./myAccount.php">Here</a></h3> 
     <h2 <?= $hide ?>>Vehicle Details </h2>
     <div class="flightSelected__details">
         <ul>
