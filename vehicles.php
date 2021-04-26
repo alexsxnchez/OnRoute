@@ -4,6 +4,9 @@ use ONROUTE\models\{Database, Vehicle};
 require_once 'vendor/autoload.php';
 require_once 'library/functions.php';
 require_once 'library/vehicles.php';
+//Styling and Header View
+$css = array('styles/vehicles.css');
+require_once 'views/header.php';
 //variables. 
 $displayVehicles;
 $appear = 'style="display: block;';
@@ -55,18 +58,14 @@ if(empty($pickupDate) || empty($returnDate)){
 $dbcon = Database::getDb();
 $vh = new Vehicle();
 $vehicles = $vh->getAllVehicles($dbcon);
-var_dump($_SESSION['pDate']);
-//Styling and Header View
-$css = array('styles/vehicles.css');
-require_once 'views/header.php';
+//var_dump($vehicles);
 ?>
 
-
 <main class="infield">
-<a href="vehicleInfo.php" id="list-button">Rental List</a>
+    <a href="vehicleInfo.php" id="list-button">Rental List</a>
     <h2>Rent A Vehicle</h2>
     <!-- FORM -->
-    <img src="images/vehicles/13-pexels-photo-4090350.jpeg" height="600" id="vehicle__image"/>
+    <img src="images/vehicles/13-pexels-photo-4090350.jpeg" height="600" id="vehicle__image">
     <form action="#form" method="POST" name="form" id="form">
         <div class="form__input">
           <label>Pick Up Location</label>
@@ -125,7 +124,6 @@ require_once 'views/header.php';
         </div>
     </div>
 </main>
-
 
 <?php
 require_once 'views/footer.php';
