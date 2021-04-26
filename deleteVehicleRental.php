@@ -43,7 +43,7 @@
         //Delete vehicle rental from vehiclerentals table given the specific rentalid
         $deleteRental = $vehicleController->deleteVehiclesToRent($finalVehicleRentalId, $db);
         
-        header("Location: myaccount.php");
+        header("Location: myAccount.php");
     }
 
 ?>
@@ -66,7 +66,7 @@
         </ul>
         <h3>Are you sure you want to cancel this vehicle rental? <br> <span class='warning'>WARNING: This action cannot be undone.</span></h3>
         <div class="flightSelected__details_btns">
-            <a href="./myaccount.php" class="bookBtn">Cancel<a>
+            <a href="./myAccount.php" class="bookBtn">Cancel<a>
             <form action="" method="POST">
                     <input type="hidden" name="vehicleRentalId" value=" <?= $vehicleDetails[0]->id; ?>"/>
                     <button type="submit" class="deleteBtn" name="deleteVehicleRental">Delete Rental</button>
