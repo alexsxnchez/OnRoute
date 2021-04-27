@@ -1,20 +1,5 @@
 # HTTP 5202 PHP Project: onRoute
 
-## By: The < WebDevs >
-### Developers:
-
-- Alexis Arevalo
-- Daniel Guinto
-- Mohamed Sakr
-- Nai-Hsien Chen
-- William Midgette
-
-#### Languages:
-
-[![Naereen's top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=alexsxnchez&theme=green-blue)](https://github.com/alexsxnchez/OnRoute/github-readme-stats)
-
----
-
 #### Alexis Arevalo: Vehcile Rentals (Pages - vehicles.php, vehicleInfo.php, and vehicleSelection.php)
 
 - All vehicles in the database are displayed, and the user can select a vehicle by clicking on it.
@@ -28,4 +13,17 @@
 - If a vehicle is already rented which matches the users date selections, then an error will appear stating that they must select a diffrent date.
 - Upon approval, the vehicle selected is saved along with all it's information.
 - Users can check their all their rentals and vehicle information by clicking the rental list button on the top right corner of (vehicles.php) which takes them to the (vehicleInfo.php) page.
+
+## By: The < WebDevs >
+### Developers:
+
+- Alexis Arevalo
+- Daniel Guinto
+- Mohamed Sakr
+- Nai-Hsien Chen
+- William Midgette
+
+#### Languages: 
+
+<img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/><img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/><img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
 
