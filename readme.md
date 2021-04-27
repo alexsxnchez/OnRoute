@@ -14,7 +14,7 @@
 - Upon approval, the vehicle selected is saved along with all it's information.
 - Users can check their all their rentals and vehicle information by clicking the rental list button on the top right corner of (vehicles.php) which takes them to the (vehicleInfo.php) page.
 
-## By: The < WebDevs >
+## The < WebDevs > - Team
 ### Developers:
 
 - Alexis Arevalo
@@ -23,7 +23,5 @@
 - Nai-Hsien Chen
 - William Midgette
 
-#### Languages: 
-
-<img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/><img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/><img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/>
+<img alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/><img alt="CSS3" src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/><img alt="PHP" src="https://img.shields.io/badge/php-%23777BB4.svg?&style=for-the-badge&logo=php&logoColor=white"/><img alt="JavaScript" src="https://img.shields.io/badge/javascript-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
