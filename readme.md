@@ -1,5 +1,6 @@
-# HTTP 5202 PHP Project: onRoute
+# HTTP5202 PHP Project - OnRoute
 
+## My Contribution
 #### Alexis Arevalo: Vehcile Rentals (Pages - vehicles.php, vehicleInfo.php, and vehicleSelection.php)
 
 - All vehicles in the database are displayed, and the user can select a vehicle by clicking on it.
