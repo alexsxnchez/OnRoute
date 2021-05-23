@@ -16,18 +16,18 @@
     --greenIvory: #2B9348;
 }
 /* Content Styling */
-main{
-    padding: 3em 0;
+main {
+    padding: 5em 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     justify-content: space-evenly;
 }
-.infield{
+.infield {
     position: relative;
 }
 /* Form Styling */
-#vehicle__image{
+#vehicle__image {
     width: 92.3%;
     margin: 0 auto;
     height: 600px;
@@ -35,7 +35,7 @@ main{
     object-position: 70% 20%;;
     border-radius: 13px 13px 0 0;
 }
-#form{
+#form {
     background: var(--mustardYellow);
     color: white;
     display: flex;
@@ -48,43 +48,43 @@ main{
     text-align: center;
     border-radius: 0 0 13px 13px;
 }
-.form__input{
+.form__input {
     padding: 0 7px 0 7px;
     flex-wrap: wrap;
     padding-bottom: 1em;
 }
-#puLocation:focus,#puDate:focus,#rDate:focus,#form__submit_btn:focus{outline: none;}
-input{
+#puLocation:focus,#puDate:focus,#rDate:focus,#form__submit_btn:focus {outline: none;}
+input {
     font-family: var(--regularFont);
 }
-.form__submit_btn{
+.form__submit_btn {
     border-radius: 5px;
     font-family: var(--regularFont);
     border-style: none;
     padding: 0.5em 2em 0.5em 2em;
 }
-.form__submit_btn:hover{
+.form__submit_btn:hover {
     background-color: var(--greenIvory);
     color: white;
     cursor: pointer;
 }
 /* Car Rental Deals */
-.products{
+.products {
     padding: 2em 0;
   }
-.products h2{
+.products h2 {
     border-bottom: 1px solid lightgrey;
 }
-.products__popular h3{
+.products__popular h3 {
     width: 100%;
 }
-.products__popular p:nth-child(1){
+.products__popular p:nth-child(1) {
     margin: 0;
 }
-.products__popular p:nth-child(2){
+.products__popular p:nth-child(2) {
     margin: 0 0 20px 0;
 }
-.products__popular{
+.products__popular {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -92,23 +92,23 @@ input{
     justify-content: space-evenly;
 }
 .products__popular_opt, 
-.products__sytem_opt{
+.products__sytem_opt {
     padding: 2em;
     margin-bottom: 1em;
     border: 1px solid #d7d7d7;
     border-radius: 5px;
 }
 .products__popular_opt:hover, 
-.products__sytem_opt:hover{
+.products__sytem_opt:hover {
     box-shadow: 0 5px 5px 5px lightgray;
 }
 .products__popular_opt img, 
-.products__sytem_opt img{
+.products__sytem_opt img {
     height: 160px;
     width: 250px;
 }
 .products__popular_opt a, 
-.products__sytem_opt a{
+.products__sytem_opt a {
     color: black;
     text-decoration: none;
     transition: 0.3s;
@@ -117,14 +117,15 @@ input{
 .products__sytem_opt a:hover {
     color: rgb(138, 138, 138);
 }
-.selected{
+.selected {
     align-items: center;
     text-align: center;
-}.wrap{
+    margin: auto;
+}.wrap {
     display: flex;
     flex-wrap: wrap;
 }
-#return-button{
+#return-button {
     background: var(--mustardYellow);
     color: white;
     text-decoration: none;
@@ -136,7 +137,7 @@ input{
     position: absolute;
     right: 50px;
     top: 50px;
-}#list-button{
+}#list-button {
     background: var(--mustardYellow);
     color: white;
     text-decoration: none;
@@ -149,31 +150,31 @@ input{
     right: 50px;
     top: 40px;
 }
-#return-button:hover, #list-button:hover{
+#return-button:hover, #list-button:hover {
     background: var(--persimmon);
 }
-.text-span{
+.text-span {
     color: rgb(163, 162, 162);
     font-family: var(--regularFont);
 }
-#error-msg{
+#error-msg {
     color: red;
     width: 40%;
-}.deallabel{
+}.deallabel {
     background: var(--greenIvory);
     color: white;
     float: right;
     right: 0;
     padding: 0 6px 0 6px;
     border-radius: 5px;
-}.short{
+}.short {
     margin: 0;
-}.short:nth-child(5){
+}.short:nth-child(5) {
     padding-bottom: 10px;
-}.submit__input{
+}.submit__input {
     width: 100%;
     text-align: center;
-}.confirmOrder{
+}.confirmOrder {
     background: var(--greenIvory);
     color: white;
     padding: 10px;
@@ -181,10 +182,10 @@ input{
     margin-bottom: 20px;
     border-radius: 5px;
     border: none;
-}.confirmOrder:hover{
+}.confirmOrder:hover {
     background: var(--persimmon);
     cursor: pointer;
-}#form-date{
+}#form-date {
     background: var(--mustardYellow);
     color: white;
     display: flex;
@@ -197,7 +198,7 @@ input{
     text-align: center;
     border-radius: 0;
     border-radius: 13px;
-}.table{
+}.table {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     width: 90%;
@@ -212,13 +213,27 @@ input{
     background-color: var(--navyBlue);
     color: white;
 }.table tr:hover {background-color: #ddd;}
-.button-delete{
+.button-delete {
     background: var(--darkRed);
     padding: 10px 15px 10px 15px;
     color: white;
     border: none;
     border-radius: 3px;
-}.button-delete:hover{
+}.button-delete:hover {
     background: var(--mustardYellow);
     cursor: pointer;
+}
+
+@media only screen and (max-width: 500px) {
+    .selected {
+        padding: 0 20px 0 20px;
+    }
+    .selected img {
+        height: 90%;
+        width: 90%;
+    }
+    .form__submit_btn {
+        margin: 0 30px 0 30px;
+        text-align: center;
+    }
 }
